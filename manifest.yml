@@ -1,0 +1,10 @@
+applications:
+- services:
+  - AltaDB-ruby
+  disk_quota: 1024M
+  host: rubyresttest
+  name: rubyRestTest
+  path: .
+  domain: stage1.mybluemix.net
+  instances: 1
+  memory: 256M
