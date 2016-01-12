@@ -11,7 +11,6 @@ RailsStarter::Application.routes.draw do
   # This route can be invoked with purchase_url(:id => product.id)
   get ':controller(/:action(/:id))'
   root :to => 'static_pages#home'
-  get 'static_pages/info'
   get 'static_pages/runTest'
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
